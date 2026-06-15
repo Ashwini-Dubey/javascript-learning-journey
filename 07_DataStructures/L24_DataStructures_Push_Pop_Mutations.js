@@ -15,7 +15,8 @@ In JavaScript, arrays are mutable data structures, which means that their conten
 
 */
 
-
+// Example usage of array mutation methods
+// Create an empty stack
 const stack = [];
 
 // push adds to the end of the array
@@ -42,6 +43,7 @@ stack.unshift("new first");
 console.log(stack); 
 
 //splice can be used to add or remove items at any position in the array
+// to add items, we specify the index to start at, the number of items to remove (0 in this case), and the items to add.
 stack.splice(1, 0, "new second"); // adds "new second" at index 1 without removing any items
 console.log(stack);
 
