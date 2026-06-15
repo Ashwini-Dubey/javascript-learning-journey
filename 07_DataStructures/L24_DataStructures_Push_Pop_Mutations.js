@@ -54,7 +54,6 @@ console.log(stack);
 stack.push("another item");
 stack.push("yet another item");
 console.log(stack);
-
 stack.sort(); // sorts the items in place
 console.log(stack); 
 
