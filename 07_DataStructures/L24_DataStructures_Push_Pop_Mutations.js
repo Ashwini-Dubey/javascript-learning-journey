@@ -1,4 +1,6 @@
 /*
+In JavaScript, arrays are mutable data structures, which means that their contents can be changed after they are created. There are several methods available for mutating arrays, including:
+
 | Method         | Purpose                  |
 | -------------- | ------------------------ |
 | `push()`       | Add to end               |
@@ -10,7 +12,9 @@
 | `reverse()`    | Reverse array            |
 | `fill()`       | Fill values              |
 | `copyWithin()` | Copy elements internally |
+
 */
+
 
 const stack = [];
 
