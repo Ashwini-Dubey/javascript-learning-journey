@@ -1,3 +1,8 @@
+/*
+Given a score variable (try different values), use if / else if / else to log the grade: 90–100 -> "A", 75–89 -> "B", 60–74 -> "C", below 60 -> "F". 
+Test with scores: 95, 80, 65, 40.
+*/
+
 const studentGrade = 40;
 
 if (studentGrade >= 90) {
