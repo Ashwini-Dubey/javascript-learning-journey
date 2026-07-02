@@ -32,3 +32,28 @@ const discountedPrice = price.map(value => value * 0.5)
 console.log(price);
 console.log(discountedPrice);
 
+
+const student = new Map(); // Create a new Map object
+student.set('name', 'John'); // Add key-value pairs to the map
+student.set('age', 20); // Add another key-value pair to the map
+student.set('grade', 'A'); // Add another key-value pair to the map
+
+console.log(student); // Output: Map(2) { 'name' => 'John', 'age' => 20 }  
+
+console.log(student.get('name')); // Output: John 
+console.log(student.has('age')); // Output: true
+student.delete('grade'); // Remove the key-value pair with key 'grade'
+console.log(student.size); // Output: 2  
+console.log(student.clear()); // Remove all key-value pairs from the map
+
+
+/*
+Think of a Map like a dictionary or contact book:
+
+set() → Save a contact 📒
+get() → Look up a contact 🔍
+has() → Check if the contact exists ✅
+delete() → Remove a contact ❌
+clear() → Delete all contacts 🗑️
+size → Count the total contacts 🔢
+*/
