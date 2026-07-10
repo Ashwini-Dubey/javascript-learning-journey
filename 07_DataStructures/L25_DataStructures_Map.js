@@ -25,12 +25,7 @@ console.log(map.size); // Output: 1
 */
 
 
-const price = [5000, 10000, 15000, 20000, 25000];
 
-const discountedPrice = price.map(value => value * 0.5)
-
-console.log(price);
-console.log(discountedPrice);
 
 
 const student = new Map(); // Create a new Map object
