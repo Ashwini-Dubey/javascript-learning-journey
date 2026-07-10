@@ -1,4 +1,5 @@
 /*
+
 Map is a data structure that allows you to store key-value pairs. 
 It is similar to an object, but it provides better performance for certain operations and allows for keys of any type.
 
@@ -23,10 +24,6 @@ map.delete('age');
 console.log(map.size); // Output: 1 
 
 */
-
-
-
-
 
 const student = new Map(); // Create a new Map object
 student.set('name', 'John'); // Add key-value pairs to the map
