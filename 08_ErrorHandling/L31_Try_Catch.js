@@ -6,7 +6,7 @@ Catch : Catch executes only if an error occurs inside the try block. It prevents
 
 try {
 
-    const age = 15;
+    const age = 19;
 
     if (age < 18) {
 
