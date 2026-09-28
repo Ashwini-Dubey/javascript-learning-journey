@@ -1,0 +1,1 @@
+console.log("I am learning JavaScript for QA Automation");

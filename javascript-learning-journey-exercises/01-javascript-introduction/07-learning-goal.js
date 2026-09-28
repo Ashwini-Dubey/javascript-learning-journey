@@ -1,0 +1,1 @@
+console.log("My learning goal is to become proficient in JavaScript and build automation frameworks using Playwright for Web & API testing.");
