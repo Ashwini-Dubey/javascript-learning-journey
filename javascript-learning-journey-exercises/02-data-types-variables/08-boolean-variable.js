@@ -1,4 +1,4 @@
-test_status = true;
+testStatus = true;
 
-console.log(test_status);
-console.log(typeof test_status);
+console.log(testStatus);
+console.log(typeof testStatus);

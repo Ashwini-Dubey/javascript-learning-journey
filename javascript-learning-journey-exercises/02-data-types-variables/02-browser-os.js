@@ -1,5 +1,5 @@
 browser = "Google Chrome";
-operating_system = "MacOS";
+operatingSystem = "MacOS";
 
 console.log(browser);
-console.log(operating_system);
+console.log(operatingSystem);

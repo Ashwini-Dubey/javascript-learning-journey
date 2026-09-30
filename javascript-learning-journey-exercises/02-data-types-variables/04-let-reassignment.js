@@ -1,7 +1,7 @@
-let test_count = 10
+let testCount = 10
 
-console.log(test_count);
+console.log(testCount);
 
-test_count = 30;
+testCount = 30;
 
-console.log(test_count);
+console.log(testCount);

@@ -1,10 +1,10 @@
-var_string = "Hello World";
-var_number = 30;
-var_bool = true;
-var_salary = null;
+varString = "Hello World";
+varNumber = 30;
+varBool = true;
+varSalary = null;
 
 
-console.log(typeof var_string);
-console.log(typeof var_number);
-console.log(typeof var_bool);
-console.log(typeof var_salary);
+console.log(typeof varString);
+console.log(typeof varNumber);
+console.log(typeof varBool);
+console.log(typeof varSalary);
