@@ -1,0 +1,9 @@
+// Print odd numbers 1–20.
+
+for(num=1;num<=20;num++)
+{
+    if(num%2!=0)
+    {
+        console.log(num);
+    }
+}
