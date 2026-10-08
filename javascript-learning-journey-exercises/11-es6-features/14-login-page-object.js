@@ -7,11 +7,12 @@ loginButton
 */
 
 class LoginPage {
-  constructor() {
+  constructor(username, password, loginButton) {
     this.username = "This is username";
     this.password = "This is password";
     this.loginButton = "This is login button";
   }
+  
 }
 
 const loginPage = new LoginPage();
