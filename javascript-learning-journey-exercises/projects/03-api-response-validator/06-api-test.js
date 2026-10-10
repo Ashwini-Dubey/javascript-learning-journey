@@ -37,12 +37,68 @@ const expectedActiveStatus = true;
 
 // 3. Validate response status
 
+function validateStatus() {
+  if (response.status === expectedStatus) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+console.log(`Status Validation: ${validateStatus() ? "PASS" : "FAIL"}`);
+
 // 4. Validate user ID
+
+function validateUserID() {
+  if (response.body.userId === expectedUserId) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+console.log(`User ID Validation: ${validateUserID() ? "PASS" : "FAIL"}`);
 
 // 5. Validate name
 
+function validateName() {
+  if (response.body.name === expectedName) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+console.log(`Name Validation: ${validateName() ? "PASS" : "FAIL"}`);
+
 // 6. Validate active status
+
+function validateActiveStatus() {
+  if (response.body.active === expectedActiveStatus) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+console.log(
+  `Active Status Validation: ${validateActiveStatus() ? "PASS" : "FAIL"}`,
+);
 
 // 7. Run all validations and determine the overall result
 
+function validateAPITest() {
+  if (
+    validateStatus() &&
+    validateUserID() &&
+    validateName() &&
+    validateActiveStatus()
+  ) {
+    console.log("Overall API Test: PASS");
+  } else {
+    console.log("Overall API Test: FAIL");
+  }
+}
+
 // 8. Execute the API test
+validateAPITest();
