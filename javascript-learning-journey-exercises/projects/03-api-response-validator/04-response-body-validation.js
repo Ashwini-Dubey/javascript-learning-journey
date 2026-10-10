@@ -1,0 +1,7 @@
+/*
+Validate:
+
+userId
+name
+active
+*/
