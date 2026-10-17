@@ -61,9 +61,9 @@ Lesson files are named `L<number>_<Topic>.js`; small practice programs are named
 | [`05_Loops`](./05_Loops)                                           | `for`, `while`, `for-of`, `for-in`                                                                                               | ✅ Done        |
 | [`06_Functions`](./06_Functions)                                   | Declarations, expressions, arrow functions, parameters, return values, defaults                                                  | ✅ Done        |
 | [`07_DataStructures`](./07_DataStructures)                         | Arrays, `push`/`pop`, `map`, `filter`, `reduce`, chaining, `Map`, objects, object methods, nested objects, destructuring, spread | ✅ Done        |
-| [`08_ErrorHandling`](./08_ErrorHandling)                           | `try`/`catch` written; `catch`, `throw`, `finally` files created                                                                 | 🚧 In progress |
+| [`08_ErrorHandling`](./08_ErrorHandling)                           | `try`/`catch` written; `catch`, `throw`, `finally` files created                                                                 | ✅ Done  |
 | [`09_OOPS`](./09_OOPS)                                             | Classes, constructor, inheritance (files created)                                                                                | ⏳ Planned     |
-| [`10_AsyncJS`](./10_AsyncJS)                                       | Callbacks, Promises, `async`/`await`, Fetch API (files created)                                                                  | ⏳ Planned     |
+| [`10_AsyncJS`](./10_AsyncJS)                                       | Callbacks, Promises, `async`/`await`, Fetch API (files created)                                                                  | ✅ Done     |
 
 > Async JavaScript and basic classes are already practised in the exercises track (modules 10 and 11 below). The lesson files for them will follow.
 
@@ -171,24 +171,14 @@ A few things to know:
 - [x] Asynchronous JavaScript basics (exercises track)
 - [x] ES6 features basics (exercises track)
 - [x] Mini projects 01 to 03
-- [ ] Error Handling (in progress)
-- [ ] OOP lessons: classes, constructor, inheritance
-- [ ] Async lessons: callbacks, Promises, `async` / `await`, Fetch API
-- [ ] Mini projects 04 and 05
-- [ ] Advanced JavaScript Concepts
+- [x] Error Handling
+- [x] OOP lessons: classes, constructor, inheritance
+- [x] Async lessons: callbacks, Promises, `async` / `await`, Fetch API
+- [x] Mini projects 04 and 05
+- [x] Advanced JavaScript Concepts
 
 ---
 
-## 📌 Future Additions
-
-- Finish error handling, OOP and async lessons
-- Complete the Test Execution Report and Mini Page Object Model projects
-- API calls using `fetch`
-- Playwright basics: first UI test, locators, and an API test
-- DOM Manipulation
-- Interview coding questions
-
----
 
 ## 🤝 Contributions
 
